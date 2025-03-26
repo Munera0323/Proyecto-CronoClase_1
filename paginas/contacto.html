@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <a href="../index.html">Ir inicio</a>
+        <a href="../paginas/nosotros.html"> Ir nosotros/a>
+        <a href="../paginas/productos.html"> Ir contacto</a>
+        </div>
+    <a href="productos.html">Ir a productos</a>
+    <a href="https://www.youtube.com/?app=desktop&hl=es" target="_blank">Ir a youtube</a>
+    <div style="text-align: center">
+
+    <h1><span style="color: aqua;">Nuestro equipo</span> de trabajo</h1>
+    <p> Atendemos de Lunes a Viernes de 8am a 9pm </p>
+    
+    <img src="../imagenes/contactanos.png" alt="suha" width="500">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31723.473358502386!2d-75.5523620455941!3d6.337767742143624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f1ca4d82947%3A0x15ddd3a95f12ca9f!2sMapa%20Beauty%20Place!5e0!3m2!1ses-419!2sco!4v1742952502705!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <div style="text-align: ;">
+        <h2 style="margin: 20px;">Formulario de contacto</h2>
+
+     <form >
+        <label>ingrese su nombre:</label>
+        <input name="nombre" required type="text" placeholder="En mayusculas"> <br>
+        <label>ingrese su edad:</label>
+        <input name="edad" type="number" min="18" max="50" required> <br>
+        <label>Ingrese un telefono o celular</label>
+        <input name="telefono" type="tel" required> <br>
+        <label>Ingrese su fecha de nacimiento</label>
+        <input name="fecha" type="date" min="1950-01-01" max="2003-12-31">
+        <label">selecciona una foto</label>
+        <input type="file" accept=".jpg, .png, .gif" max="1024kb"> <br> 
+        <label>Selecciona tu genero</label>
+        <input type="radio" value="hombre" name="genero"> hombre
+        <input type="radio" value="mujer" name="genero"> mujer
+        <input type="radio" value="otro" name="genero"> otro
+        <input type="radio" value="no sabe" name="genero"> no sabe
+        <label>Selecciona como deseas que te contacten</label> <br>
+        <input type="checkbox" name="contacto" value="email" > email
+        <input type="checkbox" name="contacto" value="telefono" > telefono
+        <input type="checkbox" name="contacto" value="paloma" > paloma mensajera
+        <input type="checkbox" name="contacto" value="humo" > señales de humo <br> </br>
+        <label>selecciona la materia de tu interes</label>
+        <select name="Español">
+            <option value="" selected></option>
+            <option value="Ensayo"></option>
+            <option value="Signos de puntuacion"></option>
+            <option value="tipos de oraciones"></option>
+
+        </select> <br>
+        <label> Observacion o sugerencia</label>
+        <textarea name="Observacion" cols="10" rows="5"></textarea>
+
+        <button type="submit"> Enviar</button>
+        <button type="reset">Borrar</button>
+
+     </form>
+
+    </div>
+</body>
+</html>
